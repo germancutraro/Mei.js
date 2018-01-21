@@ -1,6 +1,6 @@
 <h1 style="text-align: center; font-weight: lighter;">Mei.js</h1>
----
 <h3 style="text-align: center; font-weight: lighter;"> a minimal, simple and helpful library for you</h3>
+
 
 ## Documentation
 
