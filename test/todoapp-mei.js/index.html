@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task List - Mei.js</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <style>
+    .delete {
+      cursor: pointer;
+      background-color: crimson;
+      color: #fff;
+      width: 100px;
+    }
+
+    table {
+      font-size: 17px;
+    }
+
+    th,
+    td {
+      text-align: center
+    }
+
+    .edit {
+      background-color: cornflowerblue;
+      cursor: pointer;
+      color: #fff;
+      width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Todo List - Mei.js</h2>
+    <input type="text" class="u-full-width" placeholder="Write your item..." id="task" autofocus>
+    <input type="button" value="+ Add Item" class="u-full-width" id="btn-submit">
+    <table class="u-full-width" id="task-list">
+      <tr>
+        <th>Task</th>
+        <th>Action </th>
+        <tbody id="table-body">
+
+        </tbody>
+      </tr>
+
+    </table>
+  </div>
+
+  <script src="js/mei.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
