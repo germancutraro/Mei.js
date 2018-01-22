@@ -83,7 +83,7 @@ You can also find the documentation [on the website](https://germancutraro.githu
 #### Removing:
 
 ```html
-  <h1 id="title"></h1>
+  <h1 id="title">Title</h1>
 ```
 
 ```javascript
@@ -94,7 +94,7 @@ You can also find the documentation [on the website](https://germancutraro.githu
 #### Cloning:
 
 ```html
-  <h1 id="title"></h1>
+  <h1 id="title">Title 1</h1>
 ```
 
 ```javascript
@@ -124,7 +124,6 @@ You can also find the documentation [on the website](https://germancutraro.githu
     item: 'users',
     data: users
    });
- });
  ```
 
 #### Clear all the stored data:
@@ -135,7 +134,6 @@ You can also find the documentation [on the website](https://germancutraro.githu
 
   // This will delete all the sessionStorage data  
   Mei.clearStore('session');
- });
  ```
 
 #### Remove a specified item from the store:
@@ -146,7 +144,6 @@ You can also find the documentation [on the website](https://germancutraro.githu
 
   // This will delete only the 'users' item (if exist) from sessionStorage     
   Mei.removeItemStore('session', 'users');
- });
  ```
 
 #### Get all the records, if is empty returns a empty array:
@@ -154,10 +151,10 @@ You can also find the documentation [on the website](https://germancutraro.githu
 ```javascript
   // This will display the 'users' item (if exist) from localStorage     
   let allUsersFromLocal = Mei.displayStore('local', 'users');
-
+  console.log(allUsersFromLocal);
   // This will display the 'users' item (if exist) from sessionStorage     
   let allUsersFromSession = Mei.displayStore('session', 'users');
- });
+  console.log(allUsersFromSession);
  ```
  
 
