@@ -1,6 +1,6 @@
 {
   "name": "meijs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a minimal, simple and helpful library for you",
   "main": "dist/mei.min.js",
   "directories": {
@@ -19,14 +19,12 @@
     "store",
     "elements",
     "dom",
-    "germancutraro",
-    "german",
-    "cutraro"
+    "germancutraro"
   ],
   "author": "germancutraro",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/germancutraro/Mei.js.git'/issues"
   },
-  "homepage": "https://github.com/germancutraro/Mei.js.git'#readme"
+  "homepage": "https://germancutraro.github.io/Meijs/"
 }
