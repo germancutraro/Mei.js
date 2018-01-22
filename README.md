@@ -152,6 +152,7 @@ You can also find the documentation [on the website](https://germancutraro.githu
   // This will display the 'users' item (if exist) from localStorage     
   let allUsersFromLocal = Mei.displayStore('local', 'users');
   console.log(allUsersFromLocal);
+  
   // This will display the 'users' item (if exist) from sessionStorage     
   let allUsersFromSession = Mei.displayStore('session', 'users');
   console.log(allUsersFromSession);
