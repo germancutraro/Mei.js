@@ -66,7 +66,7 @@ You can also find the documentation [on the website](https://germancutraro.githu
    textContent: 'Hello World!',
    className: 'title',
    id: 'title-js',
-   parent: Mei.getElement('#title')
+   parent: Mei.getElement('#container')
  });
 
  // Create Children's
