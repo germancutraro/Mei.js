@@ -6,7 +6,9 @@
 
 You can also find the documentation [on the website](https://germancutraro.github.io/Meijs/).  
 
-### DOM Manipulation: <small>Get Elements</small>
+### DOM Manipulation: 
+
+#### Get Elements:
 
 ```html
   <h1 id="title">Mei.Js</h1>
@@ -24,7 +26,9 @@ You can also find the documentation [on the website](https://germancutraro.githu
  let elements = Mei.getElements('.item'); 
  ```
 
-### Events: ####Set Events
+### Events: 
+
+#### Set Events:
 
 ```html
   <h1 id="title">Mei.Js</h1>
