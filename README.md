@@ -24,7 +24,7 @@ You can also find the documentation [on the website](https://germancutraro.githu
  let elements = Mei.getElements('.item'); 
  ```
 
-### Events: <small>Set Events</small>
+### Events: ####Set Events
 
 ```html
   <h1 id="title">Mei.Js</h1>
@@ -47,7 +47,7 @@ You can also find the documentation [on the website](https://germancutraro.githu
  });
  ```
 
-### Elements: <small>Create, remove and clone elements</small>
+### Elements: 
 
 #### Creation:
 
