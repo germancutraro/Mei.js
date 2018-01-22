@@ -131,3 +131,7 @@ const Mei = (() => {
     removeItemStore
   }
 })();
+
+ if (typeof window === 'undefined') {
+  module.exports = Mei;
+ }
