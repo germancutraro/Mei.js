@@ -118,3 +118,7 @@ var Mei = function () {
     removeItemStore: removeItemStore
   };
 }();
+
+ if (typeof window === 'undefined') {
+  module.exports = Mei;
+ }
