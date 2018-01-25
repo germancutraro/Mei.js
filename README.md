@@ -4,7 +4,7 @@
 ## :star: Star the project
 
 With your star in the project, you help us to make ourselves known and the project to continue.
-We thank you very much!
+Thank you very much!
 
 ## Documentation
 
