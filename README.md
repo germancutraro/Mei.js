@@ -1,6 +1,10 @@
 <h1 style="text-align: center; font-weight: lighter;">Mei.js</h1>
 <h3 style="text-align: center; font-weight: lighter;"> a minimal, simple and helpful library for you</h3>
 
+## :star: Star the project
+
+With your star in the project, you help us to make ourselves known and the project to continue.
+We thank you very much!
 
 ## Documentation
 
